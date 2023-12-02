@@ -18,4 +18,18 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 			</ee:message>
 		</ee:transform>
 	</flow>
+	<flow name="day2-1">
+		<ee:transform doc:name="day2-1.dwl">
+			<ee:message>
+				<ee:set-payload resource="dw/day2-1.dwl" />
+			</ee:message>
+		</ee:transform>
+	</flow>
+	<flow name="day2-2">
+		<ee:transform doc:name="day2-2.dwl">
+			<ee:message>
+				<ee:set-payload resource="dw/day2-2.dwl" />
+			</ee:message>
+		</ee:transform>
+	</flow>
 </mule>
