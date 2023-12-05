@@ -32,4 +32,32 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 			</ee:message>
 		</ee:transform>
 	</flow>
+	<flow name="day3-1">
+		<ee:transform doc:name="day3-1.dwl">
+			<ee:message>
+				<ee:set-payload resource="dw/day3-1.dwl" />
+			</ee:message>
+		</ee:transform>
+	</flow>
+	<flow name="day3-2">
+		<ee:transform doc:name="day3-2.dwl">
+			<ee:message>
+				<ee:set-payload resource="dw/day3-2.dwl" />
+			</ee:message>
+		</ee:transform>
+	</flow>
+	<flow name="day4-1">
+		<ee:transform doc:name="day4-1.dwl">
+			<ee:message>
+				<ee:set-payload resource="dw/day4-1.dwl" />
+			</ee:message>
+		</ee:transform>
+	</flow>
+	<flow name="day4-2">
+		<ee:transform doc:name="day4-2.dwl">
+			<ee:message>
+				<ee:set-payload resource="dw/day4-2.dwl" />
+			</ee:message>
+		</ee:transform>
+	</flow>
 </mule>
